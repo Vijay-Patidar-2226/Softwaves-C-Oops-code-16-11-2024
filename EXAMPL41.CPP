@@ -1,0 +1,30 @@
+#include<conio.h>
+#include<iostream.h>
+class A
+{
+public:
+int x,y;
+void get(int a,int b)
+{
+x=a;
+y=b;
+}
+void show()
+{
+cout<<"x="<<x<<endl;
+cout<<"y="<<y<<endl;
+int x=1;
+int y=2;
+cout<<"x="<<x<<endl;
+cout<<"y="<<y<<endl;
+}
+};
+void main()
+{
+A a1;
+clrscr();
+a1.show();
+a1.get(10,20);
+a1.show();
+getch();
+}
